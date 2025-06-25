@@ -143,6 +143,12 @@ On the viewModel:
     }
 ```
 
+Repository DI:
+
+```bash
+class ItemEntryViewModel(private val itemsRepository: ItemsRepository) : ViewModel() {
+```
+
 Item STATE:
 
 ```bash
